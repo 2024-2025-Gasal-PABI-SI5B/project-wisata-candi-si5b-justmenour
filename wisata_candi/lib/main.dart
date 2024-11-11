@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:wisata_candi/screens/detail_screen.dart';
 
 void main() {
   runApp(const MainApp());
@@ -20,11 +21,4 @@ class MainApp extends StatelessWidget {
   }
 }
 
-class DetailScreen extends StatelessWidget {
-  const DetailScreen({super.key});
- 
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}
+
